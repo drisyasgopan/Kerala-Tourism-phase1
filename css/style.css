@@ -1,0 +1,300 @@
+*{
+    padding: 0px;
+    margin: 0px;;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(rgb(59, 214, 219),rgb(106, 108, 216));
+    padding: 0 !important;
+    height: 60px;
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 10px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    padding: 8px;
+}
+.navbar-nav li a:hover{
+    background-color: orange;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.heading{
+    padding: 20px;
+    background-image:linear-gradient(rgb(106, 108, 216),rgb(59, 214, 219)) ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#headline{
+    padding: 80px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: justify;
+}
+
+
+#form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+#form h1{
+    color: black;
+    text-align: center;
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color:rgb(253, 253, 253);
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.input-control .form-element{
+    position: relative;
+}
+
+.input-control label{
+    display: block;
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.input-control input{
+    border: 2px solid rgb(109, 104, 104);
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+.input-control .pw-display-toggle-btn{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+ 
+.input-control .pw-display-toggle-btn i.fa-eye-slash {
+    display: none;
+}
+.input-control .pw-display-toggle-btn.active i.fa-eye-slash {
+    display: block;
+}
+.input-control .pw-display-toggle-btn.active i.fa-eye{
+    display: none;
+}
+
+
+.input-control .pw-strength {
+    position:relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    background: #f2f2f2;
+    display: none;
+}
+
+.input-control .pw-strength span:nth-child(1){
+    position: relative;
+    font-size: 13px;
+    color: #111;
+    z-index: 2;
+    font-weight: 600;
+}
+.input-control .pw-strength span:nth-child(2){
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    z-index: 1;
+    transition: all 300ms ease-in-out;
+}
+
+.input-control .pw-strength1{
+    position:relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    background: #f2f2f2;
+    display: none;
+}
+
+.input-control .pw-strength1 span:nth-child(1){
+    position: relative;
+    font-size: 13px;
+    color: #111;
+    z-index: 2;
+    font-weight: 600;
+}
+.input-control .pw-strength1 span:nth-child(2){
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    z-index: 1;
+    transition: all 300ms ease-in-out; 
+}
+
+.input-control input.focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.input-control.success input {
+    border-color: green;
+}
+
+.input-control.error input {
+    border-color: red;
+}
+
+.input-control i{
+    position: absolute;
+    top: 45px;
+    right: 35px;
+    visibility: hidden;
+}
+
+.input-control.success i.fa-check-circle{
+    color: green;
+    visibility: visible;
+}
+
+.input-control.error i.fa-exclamation-circle{
+    color: red;
+    visibility: visible;
+}
+
+.input-control small{
+    color: #e7220c;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    visibility: hidden;
+
+}
+
+.input-control.error small{
+    visibility: visible;
+}
+
+
+.description{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify; 
+}
+.myMargin{
+    padding : 0 200px 100px;
+
+}
+.carousel-caption p:hover{
+    background-color:grey;
+    font-weight:500;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#social-media{
+    background-color: rgb(218, 214, 214);
+    padding: 100px 0;
+}
+#social-media{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.headline{
+    padding: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:600;
+    text-align: justify;
+    line-height: 35px;
+}
+.section-container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)*-1);
+    margin-right: calc(var(--bs-gutter-x)/-2);
+    margin-left: calc(var(--bs-gutter-x)/-2);
+}
+.section-container .coloumns{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.section-container .coloumns.image
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-container .coloumns.content .content-container
+{
+    padding: 40px 50px;
+}
+.section-container .coloumns.content .content-container h4 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section-container .coloumns.content .content-container p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+
+
